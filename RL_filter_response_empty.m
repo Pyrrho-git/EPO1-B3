@@ -6,6 +6,9 @@
 
 % Author: Student, Date
 
+
+% Jillis heeft spuitpoep
+
 f = logspace (0, 6, 100);
 % Vector of frequencies in log scale
 R = 100;
