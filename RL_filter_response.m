@@ -6,15 +6,22 @@
 
 % Author: Student, Date
 
+<<<<<<< HEAD:RL_filter_response.m
 
 
+=======
+>>>>>>> refs/remotes/origin/master:RL_filter_response.m
 f = logspace (0, 6, 100);
 % Vector of frequencies in log scale
 R = 100;
 L = 1e-3;
 % Parameters of the RL circuit
 
+<<<<<<< HEAD:RL_filter_response.m
 H_RL = ((2i.*f.*pi.*L)/R)./(1 + (2i.*pi.*f.*L)./R);
+=======
+H_RL = 
+>>>>>>> refs/remotes/origin/master:RL_filter_response.m
 % Transfer function (vector); use the correct equation
 A = abs(H_RL);
 % Amplitude-transfer (vector)
