@@ -12,7 +12,7 @@ R = 100;
 C = 1e-4;
 % Parameters of the RC circuit
 
-H_RC = ...
+H_RC = 1 ./ (1 + 1i .* f .* R .* C);
 % Transfer function (vector); use the correct equation
 A = abs(H_RC);
 % Amplitude response (vector)
