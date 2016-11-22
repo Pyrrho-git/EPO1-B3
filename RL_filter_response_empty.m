@@ -15,7 +15,7 @@ R = 100;
 L = 1e-3;
 % Parameters of the RL circuit
 
-H_RL = ...
+H_RL = %%Hilarische comment hier.
 % Transfer function (vector); use the correct equation
 A = ...
 % Amplitude-transfer (vector)
