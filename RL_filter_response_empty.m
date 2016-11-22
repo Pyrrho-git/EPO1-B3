@@ -6,16 +6,13 @@
 
 % Author: Student, Date
 
-
-% Jillis heeft spuitpoep
-
 f = logspace (0, 6, 100);
 % Vector of frequencies in log scale
 R = 100;
 L = 1e-3;
 % Parameters of the RL circuit
 
-H_RL = %%Hilarische comment hier.
+H_RL = 
 % Transfer function (vector); use the correct equation
 A = ...
 % Amplitude-transfer (vector)
