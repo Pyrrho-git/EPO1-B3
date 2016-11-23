@@ -1,4 +1,4 @@
-function fn_response_graph (f, A, dFi, legend)
+function fn_response_graph (f, A, dFi, legenda)
 
 % fn_response_graph (f, A, dFi)
 
@@ -17,20 +17,21 @@ hold on;
 
 subplot (211)
 % create graph of amplitude response, A in [dB]
-semilogx (f, 20 * log10 (A), legend)
+semilogx (f, 20 * log10 (A), legenda(1))
 grid
 xlabel ('frequency [Hz]')
 ylabel ('response [dB]')
+legend(legenda(2))
 
 hold on;
 subplot (212)
 % Create graph with phase shift, dFi in [degrees].
-semilogx (f, 180 ./ pi * dFi, legend)
+semilogx (f, 180 ./ pi * dFi, legenda(1))
 ylim ([-180 180])
 grid
 xlabel ('frequency [Hz]')
 ylabel ('phase shift [deg]')
-
+legend(legenda(2))
 end
 
 % End of code
