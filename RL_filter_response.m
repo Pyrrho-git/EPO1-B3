@@ -4,9 +4,7 @@
 % U2 the voltage across the capacitor. Parameters of the R and C components
 % are given.
 
-% Author: Student, Date
-
-
+% Author: Project group B3
 
 f = logspace (0, 6, 100);
 % Vector of frequencies in log scale
@@ -15,6 +13,7 @@ L = 1e-3;
 % Parameters of the RL circuit
 
 H_RL = ((2i.*f.*pi.*L)/R)./(1 + (2i.*pi.*f.*L)./R);
+
 % Transfer function (vector); use the correct equation
 A = abs(H_RL);
 % Amplitude-transfer (vector)
