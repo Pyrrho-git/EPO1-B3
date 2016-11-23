@@ -17,22 +17,24 @@ hold on;
 
 subplot (211)
 % create graph of amplitude response, A in [dB]
-semilogx (f, 20 * log10 (A), legenda(1), 'DisplayName', legenda(2))
+semilogx (f, 20 * log10 (A), 'DisplayName', legenda(2:3))
+legend('show')
 grid
 xlabel ('frequency [Hz]')
 ylabel ('response [dB]')
 %legend(legenda(2))
-legend('show')
+
 
 hold on;
 subplot (212)
 % Create graph with phase shift, dFi in [degrees].
-semilogx (f, 180 ./ pi * dFi, legenda(1), 'DisplayName', legenda(2))
+semilogx (f, 180 ./ pi * dFi, 'DisplayName', legenda(2:3))
+legend('show')
 ylim ([-180 180])
 grid
 xlabel ('frequency [Hz]')
 ylabel ('phase shift [deg]')
-legend('show')
+
 %legend(legenda(2))
 end
 
