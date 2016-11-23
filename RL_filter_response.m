@@ -24,4 +24,4 @@ dFi = angle(H_RL);
 % The frequency, amplitude-transfer and fase difference vectors are
 % input-arguments
 
-fn_response_graph(f, A, dFi)
+fn_response_graph(f, A, dFi, 'b')

@@ -23,4 +23,4 @@ dFi = angle(H_RC);
 % The frequency, amplitude response and fase shift vectors are input
 % arguments.
 
-fn_response_graph(f, A, dFi)
+fn_response_graph(f, A, dFi, 'r')
