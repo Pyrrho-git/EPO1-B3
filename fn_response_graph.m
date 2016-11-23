@@ -12,7 +12,7 @@ function fn_response_graph (f, A, dFi, legend)
 % 1/ The voltage transfer in dB as a function of the frequency f.
 % 2/ The phase difference in degree as function of the frequency f.
 
-% Author: Student, Date
+% Author: Project group B3
 
 subplot (211)
 % create graph of amplitude response, A in [dB]
