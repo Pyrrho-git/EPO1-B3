@@ -13,6 +13,8 @@ function fn_response_graph (f, A, dFi, legenda)
 % 2/ The phase difference in degree as function of the frequency f.
 
 % Author: Project group B3
+
+
 hold on; 
 
 subplot (211)
