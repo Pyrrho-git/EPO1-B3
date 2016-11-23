@@ -1,4 +1,4 @@
-% RC-filter transfer function procedure (EPO-1 assignment)
+RC-filter transfer function procedure (EPO-1 assignment)
 
 % The transfer function U2/U1 is complex, U1 equals the input voltage and
 % U2 the voltage across the capacitor. Parameters of the R and C components
