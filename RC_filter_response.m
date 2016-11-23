@@ -22,5 +22,5 @@ dFi = angle(H_RC);
 % Call self-made function
 % The frequency, amplitude response and fase shift vectors are input
 % arguments.
-
-fn_response_graph(f, A, dFi)
+legenda = ['r','RC'];
+fn_response_graph(f, A, dFi, legenda)
