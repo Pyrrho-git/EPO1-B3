@@ -4,7 +4,7 @@
 % U2 the voltage across the capacitor. Parameters of the R and C components
 % are given.
 
-% Author: Student, Date
+% Author: Project group B3 
 
 f = logspace(0, 6, 100);
 % Vector of the frequencies in log scale, omega = 2 * pi * f
