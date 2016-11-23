@@ -23,6 +23,6 @@ dFi = angle(H_RL);
 % Call self-made function
 % The frequency, amplitude-transfer and fase difference vectors are
 % input-arguments
-legenda = ['b','RL'];
+legenda = ['r','RL'];
 
 fn_response_graph(f, A, dFi, legenda)

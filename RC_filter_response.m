@@ -12,7 +12,7 @@ R = 100;
 C = 1e-4;
 % Parameters of the RC circuit
 
-H_RC = 1 ./ (1 + 1i .* 2 * pi .* R .* C);
+H_RC = 1 ./ (1 + 1i .* 2 .* pi .* f .* R .* C);
 % Transfer function (vector); use the correct equation
 A = abs(H_RC);
 % Amplitude response (vector)
@@ -22,5 +22,5 @@ dFi = angle(H_RC);
 % Call self-made function
 % The frequency, amplitude response and fase shift vectors are input
 % arguments.
-legenda = ['r','RC'];
-fn_response_graph(f, A, dFi, legenda)
+legenda2 = ['g','RC'];
+fn_response_graph(f, A, dFi, legenda2)
