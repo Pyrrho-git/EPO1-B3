@@ -13,25 +13,31 @@ function fn_response_graph (f, A, dFi, legenda)
 % 2/ The phase difference in degree as function of the frequency f.
 
 % Author: Project group B3
+
+
 hold on; 
 
 subplot (211)
 % create graph of amplitude response, A in [dB]
-semilogx (f, 20 * log10 (A), legenda(1))
+semilogx (f, 20 * log10 (A), 'DisplayName', legenda(2:3))
+legend('show')
 grid
 xlabel ('frequency [Hz]')
 ylabel ('response [dB]')
-legend(legenda(2))
+%legend(legenda(2))
+
 
 hold on;
 subplot (212)
 % Create graph with phase shift, dFi in [degrees].
-semilogx (f, 180 ./ pi * dFi, legenda(1))
+semilogx (f, 180 ./ pi * dFi, 'DisplayName', legenda(2:3))
+legend('show')
 ylim ([-180 180])
 grid
 xlabel ('frequency [Hz]')
 ylabel ('phase shift [deg]')
-legend(legenda(2))
+
+%legend(legenda(2))
 end
 
 % End of code
